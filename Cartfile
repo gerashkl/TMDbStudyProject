@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire"
+github "realm/realm-swift"
+github "SDWebImage/SDWebImage"
+
