@@ -2,7 +2,7 @@ import UIKit
 import SDWebImage
 
 
-class mediaViewCell: UITableViewCell {
+class MediaViewCell: UITableViewCell {
     @IBOutlet weak private var titleMediaLabel: UILabel!
     @IBOutlet weak private var generesMediaCellLabel: UILabel!
     @IBOutlet weak private var raitingMediaViewCellLabel: UILabel!

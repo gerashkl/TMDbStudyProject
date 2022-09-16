@@ -20,8 +20,8 @@
 		377BC62528B59C76002B9932 /* RealmSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377BC62428B59C76002B9932 /* RealmSwift.xcframework */; };
 		377BC62628B59C76002B9932 /* RealmSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 377BC62428B59C76002B9932 /* RealmSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		377BC62A28B5A884002B9932 /* WathLaterRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377BC62928B5A884002B9932 /* WathLaterRealm.swift */; };
-		379146E828B7123800710778 /* mediaViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379146E628B7123800710778 /* mediaViewCell.swift */; };
-		379146E928B7123800710778 /* mediaViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 379146E728B7123800710778 /* mediaViewCell.xib */; };
+		379146E828B7123800710778 /* MediaViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379146E628B7123800710778 /* MediaViewCell.swift */; };
+		379146E928B7123800710778 /* MediaViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 379146E728B7123800710778 /* MediaViewCell.xib */; };
 		379146EC28B71D6100710778 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379146EB28B71D6100710778 /* Constants.swift */; };
 		379146EE28B72E6000710778 /* MediaViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379146ED28B72E6000710778 /* MediaViewControllerViewModel.swift */; };
 		3791470128B83EB600710778 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 3791470028B83EB600710778 /* SDWebImage */; };
@@ -74,8 +74,8 @@
 		377BC62128B59C48002B9932 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = Carthage/Build/Realm.xcframework; sourceTree = "<group>"; };
 		377BC62428B59C76002B9932 /* RealmSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = Carthage/Build/RealmSwift.xcframework; sourceTree = "<group>"; };
 		377BC62928B5A884002B9932 /* WathLaterRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WathLaterRealm.swift; sourceTree = "<group>"; };
-		379146E628B7123800710778 /* mediaViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mediaViewCell.swift; sourceTree = "<group>"; };
-		379146E728B7123800710778 /* mediaViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mediaViewCell.xib; sourceTree = "<group>"; };
+		379146E628B7123800710778 /* MediaViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewCell.swift; sourceTree = "<group>"; };
+		379146E728B7123800710778 /* MediaViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MediaViewCell.xib; sourceTree = "<group>"; };
 		379146EB28B71D6100710778 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		379146ED28B72E6000710778 /* MediaViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewControllerViewModel.swift; sourceTree = "<group>"; };
 		379BBE1528A5E1EE00206007 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
@@ -117,8 +117,8 @@
 		379146EA28B7124D00710778 /* mediaViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				379146E628B7123800710778 /* mediaViewCell.swift */,
-				379146E728B7123800710778 /* mediaViewCell.xib */,
+				379146E628B7123800710778 /* MediaViewCell.swift */,
+				379146E728B7123800710778 /* MediaViewCell.xib */,
 			);
 			path = mediaViewCell;
 			sourceTree = "<group>";
@@ -303,7 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37B11496289F408A00D580B0 /* LaunchScreen.storyboard in Resources */,
-				379146E928B7123800710778 /* mediaViewCell.xib in Resources */,
+				379146E928B7123800710778 /* MediaViewCell.xib in Resources */,
 				37B11493289F408A00D580B0 /* Assets.xcassets in Resources */,
 				37B11491289F408900D580B0 /* Main.storyboard in Resources */,
 			);
@@ -359,7 +359,7 @@
 				37B2838C28B98FBA000F78A0 /* DataManager.swift in Sources */,
 				375A6E3C28B85FFE00DFC11B /* DetalisViewController.swift in Sources */,
 				37B1148E289F408900D580B0 /* MediaViewController.swift in Sources */,
-				379146E828B7123800710778 /* mediaViewCell.swift in Sources */,
+				379146E828B7123800710778 /* MediaViewCell.swift in Sources */,
 				377BC62A28B5A884002B9932 /* WathLaterRealm.swift in Sources */,
 				3779D9C728C503EF006FE6F5 /* DetalisViewControllerViewModel.swift in Sources */,
 				371F69A228C024B500AC147C /* Genres.swift in Sources */,

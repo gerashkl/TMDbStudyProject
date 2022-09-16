@@ -24,8 +24,8 @@ class WathLaterViewController: UIViewController {
         wathLaterTableView.reloadData()
     }
     private func setapInterfase(){
-        let cellNib = UINib(nibName: "mediaViewCell", bundle: nil)
-        wathLaterTableView.register(cellNib, forCellReuseIdentifier: "mediaViewCell")
+        let cellNib = UINib(nibName: "MediaViewCell", bundle: nil)
+        wathLaterTableView.register(cellNib, forCellReuseIdentifier: "MediaViewCell")
     }
 }
 //MARK: - WathLater DataSource, Delegate
@@ -36,7 +36,7 @@ extension WathLaterViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ wathLaterTableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = wathLaterTableView.dequeueReusableCell(withIdentifier: "mediaViewCell") as? mediaViewCell{
+        if let cell = wathLaterTableView.dequeueReusableCell(withIdentifier: String(describing: MediaViewCell.self)) as? MediaViewCell{
             cell.configure(with: savedMediaList[indexPath.row])
             cell.configureInterfaceSetting()
             return cell

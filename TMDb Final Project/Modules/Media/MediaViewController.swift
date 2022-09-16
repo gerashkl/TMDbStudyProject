@@ -58,7 +58,7 @@ class MediaViewController: UIViewController {
     
     //MARK:- Private func
     private func setapInterfase(){
-        let stringCellIdentifire = String(describing: mediaViewCell.self)
+        let stringCellIdentifire = String(describing: MediaViewCell.self)
         let cellNib = UINib(nibName: stringCellIdentifire, bundle: nil)
         mediaTableView.register(cellNib, forCellReuseIdentifier: stringCellIdentifire)
     }
@@ -76,7 +76,7 @@ extension MediaViewController: UITableViewDataSource, UITableViewDelegate{
     
     func tableView(_ mediaTableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        if let cell = mediaTableView.dequeueReusableCell(withIdentifier:String(describing: mediaViewCell.self)) as? mediaViewCell{
+        if let cell = mediaTableView.dequeueReusableCell(withIdentifier:String(describing: MediaViewCell.self)) as? MediaViewCell{
             cell.configure(with: mainMediaDataList[indexPath.row])
             cell.configureInterfaceSetting()
             return cell
